@@ -1,4 +1,4 @@
-package tlb.els;
+package tlb.els.controller;
 
 import java.util.Map;
 import org.springframework.stereotype.Controller;
