@@ -1,5 +1,5 @@
 # EquipmentSolutions
-includes Java, HTML mySQL, and more to manage the leases for a storage trailer company by managing all leases, equipment used in each lease and the customer for each lease.
+includes Java, HTML mySQL, and more to manage the leases for a storage trailer company by handling all leases, equipment used in each lease and the customer for each lease.
 
 # Tools
 - Java
