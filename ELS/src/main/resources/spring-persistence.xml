@@ -39,7 +39,7 @@
     </bean>
     
     <bean id="dao" 
-          class="tlb.els.dao.daoImpl">
+          class="tlb.els.dao.DaoImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
     

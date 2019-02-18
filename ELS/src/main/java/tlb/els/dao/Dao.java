@@ -14,7 +14,7 @@ import tlb.els.model.Lease;
  *
  * @author tylerbates
  */
-public interface dao {
+public interface Dao {
     
     //------------Equipment------------------------
     public Equipment getEquipmentById(int idEquip);
@@ -40,4 +40,7 @@ public interface dao {
     public void deleteCustomerById(int idCustomer);
     //----------------------------------------------
     
+    
+    //Helper Methods
+    public List<Equipment> getEquipmentForLease(Lease lease);
 }
