@@ -33,7 +33,7 @@
                 </div>
             </div>
             <div class="row">
-                <h2>Equipment To Edit</h2>
+                <h2 class="text-center">Equipment To Edit</h2>
                 <div class="col-md-6 text-center">
                     <p>Make: <c:out value="${equipment.make}"/></p>
                     <p>Model: <c:out value="${equipment.model}"/></p>
