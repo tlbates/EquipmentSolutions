@@ -25,6 +25,18 @@ public class megaController {
         return "index";
     }
     
+    @RequestMapping(value={"/viewEquipment"}, method=RequestMethod.GET)
+    public String viewEquipment(HttpServletRequest request, Model model) {
+        model.addAttribute("equipment", dao.getAllEquipment());
+        return "viewEquipment";
+    }
+    
+    @RequestMapping(value={"/viewCustomers"}, method=RequestMethod.GET)
+    public String viewCustomerst(HttpServletRequest request, Model model) {
+        model.addAttribute("customers", dao.getAllCustomers());
+        return "viewCustomers";
+    }
+    
     @RequestMapping(value={"/manageEquipment"}, method=RequestMethod.GET)
     public String manageEquipment(HttpServletRequest request, Model model) {
         model.addAttribute("equipment", dao.getAllEquipment());
